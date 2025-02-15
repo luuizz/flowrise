@@ -6,7 +6,7 @@ import React from 'react'
 export default function SectionHero() {
   return (
     <section className='py-20'>
-      <Bounded>
+      <Bounded className='flex justify-center'>
         <main className='w-full max-w-[62.625rem]'>
           <div className='text-center mb-28'>
             <h1 className='text-7xl/tight font-body text-slate-700 font-bold mb-2'>Produtividade que se adapta à sua vida, não o contrário.</h1>
