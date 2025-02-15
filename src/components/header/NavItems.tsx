@@ -2,8 +2,6 @@ import React from 'react'
 import { navItems } from '@/utils/data';
 import Link from 'next/link';
 
-
-
 export default function NavItems() {
   return (
     <nav>
