@@ -1,6 +1,6 @@
 
 export default function Home() {
   return (
-    <h1>Começo do projeto</h1>
+    <h1 className="font-nunito">Começo do projeto</h1>
   );
 }
