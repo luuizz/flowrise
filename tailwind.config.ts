@@ -8,10 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        body: "var(--font-nunito)",
+        display: "var(--font-nunito-sans)",
       },
+      maxWidth: {
+        container: "76.25rem",
+      }
     },
   },
   plugins: [],
