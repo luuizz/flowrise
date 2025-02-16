@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .heading-2 {
+    @apply text-slate-700 font-body text-4xl leading-short font-bold;
+  }
+
+  .paraphrase {
+    @apply text-slate-600 font-display text-base leading-base;
+  }
+
+  .heading-strong {
+    @apply text-2xl leading-base text-slate-600 font-display
+  }
+}
