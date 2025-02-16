@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Bounded from "../Bounded";
 import LogoFlowRise from "../assets/logo";
-import NavItems from "../header/NavItems";
+import NavFooter from "./NavFooter";
 
 export default function Footer() {
   const anoAtual = new Date().getFullYear();
@@ -15,7 +15,7 @@ export default function Footer() {
       
       <p className="font-display text-xs/normal text-slate-700">Flowrise &copy; {anoAtual}</p>
 
-      <NavItems />
+      <NavFooter />
       </Bounded>
     </footer>
   )
