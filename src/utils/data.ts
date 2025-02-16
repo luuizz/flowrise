@@ -1,3 +1,8 @@
+import IconAgendamento from "@/components/assets/IconAgendamento"
+import IconAnalytics from "@/components/assets/IconAnalytics"
+import IconIntegration from "@/components/assets/IconIntegration"
+import IconTime from "@/components/assets/IconTime"
+
 export const navItems = [
   {
     path: "/funcionalidades",
@@ -32,4 +37,27 @@ export const dataTestimonials = [
     role: "Especialista em Marketing",
     image: "/avatar-1.png",
   },
+]
+
+export const dataFuncionalidades = [
+  {
+    icon: IconAgendamento,
+    title: "Agendamento Inteligente",
+    description: "Organize suas tarefas nos momentos do dia em que você está mais produtivo, maximizando seu desempenho sem esforço."
+  },
+  {
+    icon: IconAnalytics,
+    title: "Análises de Produtividade",
+    description: "Identifique padrões, tendências e áreas de melhoria com relatórios detalhados que ajudam você a evoluir continuamente."
+  },
+  {
+    icon: IconIntegration,
+    title: "Integrações de Bem-Estar",
+    description: "Integre lembretes para meditação, pausas conscientes e outras práticas que promovem equilíbrio e foco."
+  },
+  {
+    icon: IconTime,
+    title: "Temporizador de Foco",
+    description: "Use o temporizador Pomodoro integrado para dividir seu trabalho em intervalos produtivos, com lembretes para pausas estratégicas."
+  }
 ]
