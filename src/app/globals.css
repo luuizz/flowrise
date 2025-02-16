@@ -4,7 +4,7 @@
 
 @layer components {
   .heading-2 {
-    @apply text-slate-700 font-body text-4xl leading-short font-bold;
+    @apply text-slate-700 font-body text-3xl sm:text-4xl leading-short font-bold;
   }
 
   .paraphrase {
@@ -12,7 +12,7 @@
   }
 
   .heading-strong {
-    @apply text-2xl leading-base text-slate-600 font-display
+    @apply text-xl md:text-2xl leading-base text-slate-600 font-display
   }
 
   .input-flowrise {
@@ -26,4 +26,19 @@
 
 .hamburger-react div {
   height: 2px !important;
+}
+
+body::-webkit-scrollbar {
+  height: 5px;
+  width: 5px
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(24, 206, 191, 0.2);
+  border-radius: 4px
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 4px;
+  display: none
 }

@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Form() {
   return (
-    <form className='flex flex-row flex-wrap gap-6' action="">
-      <div className='flex-1'>
+    <form className='flex flex-row flex-wrap gap-3 md:gap-6' action="">
+      <div className='flex-auto md:flex-1'>
         <label className='label-flowrise' htmlFor="name">Nome</label>
         <input className='input-flowrise' type="text" name="name" id="name" placeholder='Ex: João Silva...' />
       </div>
@@ -29,8 +29,8 @@ export default function Form() {
       </div>
 
       <div className='flex items-center gap-2 w-full'>
-        <input className='appearance-none h-4 w-4 border border-gray-300 checked:bg-cyan-600 rounded-md bg-gray-50 transition duration-150 ease-in-out' type="checkbox" name="politica" id="politica" />
-        <span className='text-slate-500 text-base/base font-display'>Você concorda com a nossa <a className='underline' href="#">política de privacidade</a>.</span>
+        <input className='appearance-none w-5 h-5 md:h-4 md:w-4 border border-gray-300 checked:bg-cyan-600 rounded-md bg-gray-50 transition duration-150 ease-in-out' type="checkbox" name="politica" id="politica" />
+        <span className='flex-1 text-slate-500 text-base/base font-display'>Você concorda com a nossa <a className='underline' href="#">política de privacidade</a>.</span>
       </div>
 
       <div className='w-full'>

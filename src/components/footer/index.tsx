@@ -8,12 +8,12 @@ export default function Footer() {
 
   return (
     <footer className="py-8 bg-white">
-      <Bounded className="flex items-center justify-between">
-      <Link title="Ir para página inicial" href="/">
+      <Bounded className="flex flex-col md:flex-row items-center justify-between">
+      <Link className="mb-8 md:mb-0" title="Ir para página inicial" href="/">
           <LogoFlowRise />
       </Link>
       
-      <p className="font-display text-xs/normal text-slate-700">Flowrise &copy; {anoAtual}</p>
+      <p className="font-display hidden md:block text-xs/normal text-slate-700">Flowrise &copy; {anoAtual}</p>
 
       <NavFooter />
       </Bounded>
