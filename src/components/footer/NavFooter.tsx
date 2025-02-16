@@ -2,9 +2,9 @@ import React from 'react'
 import { navItems } from '@/utils/data';
 import Link from 'next/link';
 
-export default function NavItems() {
+export default function NavFooter() {
   return (
-    <nav  className='hidden lg:block'>
+    <nav>
       <ul className='flex items-center gap-8'>
         {navItems.map((item) => (
           <li key={item.path}>
