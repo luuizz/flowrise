@@ -10,7 +10,7 @@ interface CardTestimonialsProps {
 
 export default function CardTestimonials({ quote, name, role, image }: CardTestimonialsProps) {
   return (
-    <div className='py-16 px-14 bg-white rounded-2xl shadow-md shadow-cyan-800/10'>
+    <div className='py-16 px-14 bg-white rounded-2xl shadow-md shadow-cyan-800/10 flex flex-col justify-between gap-4'>
       <blockquote className='mb-4'>
         <cite className='text-slate-700 font-display text-xl/snug font-normal not-italic'>&quot;{quote}&quot;</cite>
       </blockquote>

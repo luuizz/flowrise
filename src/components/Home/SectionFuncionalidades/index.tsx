@@ -6,7 +6,7 @@ import CardFuncionalidade from './CardFuncionalidade'
 
 export default function SectionFuncionalidades() {
   return (
-    <section className='py-14 gap-11'>
+    <section className='py-14'>
       <Bounded className='flex flex-col items-center gap-11'>
         <h2 className='text-slate-700 font-body text-4xl/tight font-bold text-center w-[26.625rem] mx-auto'>Funcionalidades que se adaptam ao seu ritmo</h2>
 
