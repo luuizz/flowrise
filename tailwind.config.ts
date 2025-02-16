@@ -14,6 +14,10 @@ export default {
       },
       maxWidth: {
         container: "76.25rem",
+      },
+      lineHeight: {
+        short: "120%",
+        base: "150%",
       }
     },
   },
