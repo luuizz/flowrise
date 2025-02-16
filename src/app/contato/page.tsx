@@ -1,5 +1,13 @@
+import SectionHeroContato from "@/components/Contato/SectionHeroContato";
+import SectionHarmonize from "@/components/Home/SectionHarmonize";
+import SectionTestimonials from "@/components/Home/SectionTestimonial";
+
 export default function Contato() {
   return (
-    <h1>Página de Contato</h1>
+    <>
+      <SectionHeroContato />
+      <SectionTestimonials />
+      <SectionHarmonize />
+    </>
   )
 }
