@@ -1,0 +1,119 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"titulo_secao": {
+				"__TYPE__": "FieldContent",
+				"value": "dawn",
+				"type": "Text"
+			},
+			"cadastrar_funcionalidades": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icone",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Select",
+									"value": "Agenda"
+								}
+							],
+							[
+								"titulo_card",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "mysterious",
+									"type": "Text"
+								}
+							],
+							[
+								"descricao_card",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "other",
+									"type": "Text"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icone",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Select",
+									"value": "Analytics"
+								}
+							],
+							[
+								"titulo_card",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "wddd"
+								}
+							],
+							[
+								"descricao_card",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "wddwdwwddwdd"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icone",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Select",
+									"value": "Tempo"
+								}
+							],
+							[
+								"titulo_card",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "dwwdwddwwdwd"
+								}
+							],
+							[
+								"descricao_card",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "dwdwdwdwdwddwd"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icone",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Select",
+									"value": "Tempo"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

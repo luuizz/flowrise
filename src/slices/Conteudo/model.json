@@ -1,0 +1,78 @@
+{
+  "id": "conteudo",
+  "type": "SharedSlice",
+  "name": "Conteudo",
+  "description": "Conteudo",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "texto_secao": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Texto Seção",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "descricao_secao": {
+          "type": "Text",
+          "config": {
+            "label": "Descrição Seção",
+            "placeholder": ""
+          }
+        },
+        "imagem_secao": {
+          "type": "Image",
+          "config": {
+            "label": "Imagem Seção",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "imagemDireita",
+      "name": "Imagem Direita",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "texto_secao": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Texto Seção",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "heading2"
+          }
+        },
+        "descricao_secao": {
+          "type": "Text",
+          "config": {
+            "label": "Descrição Seção",
+            "placeholder": ""
+          }
+        },
+        "imagem_secao": {
+          "type": "Image",
+          "config": {
+            "label": "Imagem Seção",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

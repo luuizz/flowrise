@@ -1,0 +1,41 @@
+{
+  "id": "form",
+  "type": "SharedSlice",
+  "name": "Form",
+  "description": "Form",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "titulo_secao": {
+          "type": "Text",
+          "config": {
+            "label": "Titulo Seção",
+            "placeholder": ""
+          }
+        },
+        "descricao_secao": {
+          "type": "Text",
+          "config": {
+            "label": "Descrição Seção",
+            "placeholder": ""
+          }
+        },
+        "imagem_destaque_secao": {
+          "type": "Image",
+          "config": {
+            "label": "Imagem Destaque Seção",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

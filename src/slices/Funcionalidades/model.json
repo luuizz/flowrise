@@ -1,0 +1,62 @@
+{
+  "id": "funcionalidades",
+  "type": "SharedSlice",
+  "name": "Funcionalidades",
+  "description": "Funcionalidades",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "titulo_secao": {
+          "type": "Text",
+          "config": {
+            "label": "Titulo Secao",
+            "placeholder": ""
+          }
+        },
+        "cadastrar_funcionalidades": {
+          "type": "Group",
+          "config": {
+            "label": "Cadastrar Funcionalidades",
+            "repeat": true,
+            "fields": {
+              "icone": {
+                "type": "Select",
+                "config": {
+                  "label": "Icone",
+                  "placeholder": "",
+                  "options": [
+                    "Agenda",
+                    "Analytics",
+                    "Integrações",
+                    "Tempo"
+                  ]
+                }
+              },
+              "titulo_card": {
+                "type": "Text",
+                "config": {
+                  "label": "Titulo Card",
+                  "placeholder": ""
+                }
+              },
+              "descricao_card": {
+                "type": "Text",
+                "config": {
+                  "label": "Descrição Card",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

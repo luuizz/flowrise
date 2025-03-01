@@ -2,8 +2,8 @@ import type { MetadataRoute } from 'next'
 
 const baseUrl = 
   process.env.NODE_ENV === "production"
-    ? process.env.URLSITE_DEVELOPMENT
-    : process.env.URLSITE_PRODUCTION
+    ? process.env.URLSITE_PRODUCTION
+    : process.env.URLSITE_DEVELOPMENT
  
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

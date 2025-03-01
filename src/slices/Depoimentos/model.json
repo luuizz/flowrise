@@ -1,0 +1,46 @@
+{
+  "id": "depoimentos",
+  "type": "SharedSlice",
+  "name": "Depoimentos",
+  "description": "Depoimentos",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "titulo_secao": {
+          "type": "Text",
+          "config": {
+            "label": "Titulo Seção",
+            "placeholder": ""
+          }
+        },
+        "depoimentos_fetch": {
+          "type": "Group",
+          "config": {
+            "label": "Depoimentos",
+            "repeat": true,
+            "fields": {
+              "card_depoimentos": {
+                "type": "Link",
+                "config": {
+                  "label": "Card Depoimentos",
+                  "select": "document",
+                  "repeat": false,
+                  "customtypes": [
+                    "depoimentos"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

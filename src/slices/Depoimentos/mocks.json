@@ -1,0 +1,35 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"titulo_secao": {
+				"__TYPE__": "FieldContent",
+				"value": "grown",
+				"type": "Text"
+			},
+			"depoimentos_fetch": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"card_depoimentos",
+								{
+									"key": "fea3a6c7-a2a0-462f-9e34-ef2902e044ed",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "DocumentLink",
+										"id": "mock_document_id"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

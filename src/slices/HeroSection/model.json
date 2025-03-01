@@ -1,0 +1,141 @@
+{
+  "id": "hero_section",
+  "type": "SharedSlice",
+  "name": "HeroSection",
+  "description": "HeroSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "textohero": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TextoHero",
+            "placeholder": "Aqui você pode cadastrar o texto",
+            "allowTargetBlank": false,
+            "single": "heading1,heading2,strong,em"
+          }
+        },
+        "descricaohero": {
+          "type": "StructuredText",
+          "config": {
+            "label": "DescricaoHero",
+            "placeholder": "Aqui você pode cadastrar o texto",
+            "allowTargetBlank": false,
+            "single": "paragraph,strong,em"
+          }
+        },
+        "link_hero": {
+          "type": "Link",
+          "config": {
+            "label": "Link Hero",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        },
+        "imagemhero": {
+          "type": "Image",
+          "config": {
+            "label": "ImagemHero",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "horizontal",
+      "name": "Horizontal",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "textohero": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TextoHero",
+            "placeholder": "Aqui você pode cadastrar o texto",
+            "allowTargetBlank": false,
+            "single": "heading1,heading2,strong,em"
+          }
+        },
+        "descricaohero": {
+          "type": "StructuredText",
+          "config": {
+            "label": "DescricaoHero",
+            "placeholder": "Aqui você pode cadastrar o texto",
+            "allowTargetBlank": false,
+            "single": "paragraph,strong,em"
+          }
+        },
+        "link_hero": {
+          "type": "Link",
+          "config": {
+            "label": "Link Hero",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        },
+        "imagemhero": {
+          "type": "Image",
+          "config": {
+            "label": "ImagemHero",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "hozontalSemBotao",
+      "name": "HozontalSemBotão",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "textohero": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TextoHero",
+            "placeholder": "Aqui você pode cadastrar o texto",
+            "allowTargetBlank": false,
+            "single": "heading1,heading2,strong,em"
+          }
+        },
+        "descricaohero": {
+          "type": "StructuredText",
+          "config": {
+            "label": "DescricaoHero",
+            "placeholder": "Aqui você pode cadastrar o texto",
+            "allowTargetBlank": false,
+            "single": "paragraph,strong,em"
+          }
+        },
+        "imagemhero": {
+          "type": "Image",
+          "config": {
+            "label": "ImagemHero",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
