@@ -2,21 +2,25 @@ import type { Metadata } from "next";
 import { Nunito, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import { PrismicPreview } from "@prismicio/next";
-import { repositoryName } from "@/prismicio";
+import { createClient, repositoryName } from "@/prismicio";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
-export const metadata: Metadata = {
-  title:
-    "Flowrise | Produtividade que se adapta ao seu ritmo natural e bem-estar",
-  description:
-    "Descubra o Flowrise: a ferramenta que harmoniza produtividade e bem-estar. Organize tarefas, hábitos e energia no seu ritmo. Experimente grátis e transforme sua rotina!",
-  keywords:
-    "produtividade personalizada, gestão de tarefas no seu ritmo, ferramenta de bem-estar e produtividade, organização de tarefas com energia natural, agendamento inteligente, temporizador Pomodoro integrado, análises de produtividade, autocuidado e foco, Flowrise app, produtividade sem esforço",
-  openGraph: {
-    images: "/og-image.png",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const client = createClient();
+
+  const settings = await client.getSingle("settings");
+
+  return {
+    title: settings.data.site_title || "Flowrise",
+    description:
+      settings.data.meta_description || "Produtividade que se adapta ao seu ritmo natural e bem-estar",
+    keywords: settings.data.keywords,
+    openGraph: {
+      images: [settings.data.og_image.url || ""],
+    },
+  };
+}
 
 const nunito = Nunito({
   subsets: ["latin"],
