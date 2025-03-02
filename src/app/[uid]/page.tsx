@@ -28,6 +28,7 @@ export async function generateMetadata({
   return {
     title: page.data.meta_title,
     description: page.data.meta_description,
+    keywords: page.data.keywords,
     openGraph: {
       title: isFilled.keyText(page.data.meta_title)
         ? page.data.meta_title
