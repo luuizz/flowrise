@@ -27,7 +27,7 @@ export default function AsideMenu({ isOpen, closeMenu, navItems }: AsideMenuProp
             <li key={item.key}>
               <Link
               onClick={closeMenu}
-              className='font-display text-2xl/normal text-slate-700 transition-colors hover:text-slate-900' href={item.slug}>{item.text}</Link>
+              className='font-display text-2xl/normal text-slate-700 transition-colors hover:text-slate-900' href={item.url}>{item.text}</Link>
             </li>
           ))}
         </ul>
