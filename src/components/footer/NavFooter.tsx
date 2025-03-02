@@ -9,13 +9,15 @@ export default async function NavFooter() {
   return (
     <nav>
       <ul className='flex flex-col md:flex-row items-center gap-4 md:gap-8'>
-        {settings.data.navegacao[0]?.link.map((item) => (
+        {settings.data.navegacao[0]?.link.map((item) => {
+          const href = "url" in item ? item.url : "#";
+          return (
           <li key={item.key}>
-            <PrismicNextLink className='font-display text-base/normal text-slate-700 transition-colors hover:text-slate-900' href={item.url}>
+            <PrismicNextLink className='font-display text-base/normal text-slate-700 transition-colors hover:text-slate-900' href={href as string}>
               {item.text}
             </PrismicNextLink>
           </li>
-        ))}
+        )})}
       </ul>
     </nav>
   )
