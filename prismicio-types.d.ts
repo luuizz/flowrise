@@ -179,6 +179,17 @@ interface PageDocumentData {
   meta_description: prismic.KeyTextField;
 
   /**
+   * Keywords field in *Page*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: page.keywords
+   * - **Tab**: SEO & Metadata
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  keywords: prismic.KeyTextField;
+
+  /**
    * Meta Image field in *Page*
    *
    * - **Field Type**: Image

@@ -54,6 +54,13 @@
         },
         "type": "Text"
       },
+      "keywords": {
+        "type": "Text",
+        "config": {
+          "label": "Keywords",
+          "placeholder": ""
+        }
+      },
       "meta_image": {
         "config": {
           "constraint": {
